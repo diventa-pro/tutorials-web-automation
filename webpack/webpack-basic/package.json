@@ -1,0 +1,20 @@
+{
+  "name": "webpack-basic",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "serve-src": "http-server ./src -p 8080 -a 0.0.0.0 --cors -c-1",
+    "serve-dist": "http-server ./dist -p 8080 -a 0.0.0.0 --cors -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

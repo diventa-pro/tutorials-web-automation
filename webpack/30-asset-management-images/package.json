@@ -1,0 +1,14 @@
+{
+  "name": "webpack-package-from-page",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "file-loader": "^1.1.11",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}

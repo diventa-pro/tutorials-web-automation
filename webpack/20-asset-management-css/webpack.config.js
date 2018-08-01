@@ -17,6 +17,7 @@ module.exports = {
                     'style-loader',
 
                     // The css-loader interprets @import and url() like import/require() and will resolve them.
+                    // What the hell does it really mean ?
                     'css-loader'
 
                     // so it seems loaders are used from bottom up
